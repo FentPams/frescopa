@@ -1,4 +1,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+<!--
+  TEST: minimal UE instrumentation on the publish render. Branch
+  test/aue-instrument-publish only — DO NOT MERGE. Adds the two markers
+  the UE getting-started docs say are required for the editor-connection
+  handshake (cors.js + urn:adobe:aue meta), pointing at the frescopa
+  author URL where the real backend lives. Test whether UE's "Couldn't
+  connect to the page" message clears when navigating UE's content frame
+  to the *.aem.page preview URL of this branch.
+-->
+<meta name="urn:adobe:aue:system:aemconnection"
+      content="aem:https://author-p154780-e1639016.adobeaemcloud.com" />
+<script src="https://universal-editor-service.adobe.io/cors.js" async></script>
+
 <script type="speculationrules">
     {
         "prerender": [{
