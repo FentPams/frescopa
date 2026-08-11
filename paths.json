@@ -13,6 +13,8 @@
     "/content/frescopa/jp/:/jp/",
     "/content/frescopa/jp/placeholders:/placeholders.json",
     "/content/frescopa/jp/locations/locationslist:/locations.json",
+    "/content/frescopa/fr:/fr",
+    "/content/frescopa/fr/:/fr/",
     "/content/frescopa/configuration:/.helix/config.json",
     "/content/frescopa/headers:/.helix/headers.json",
     "/content/frescopa/metadata:/metadata.json",
